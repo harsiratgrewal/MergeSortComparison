@@ -31,7 +31,7 @@ public class MergeSort {
             System.out.println(
                     "The result of bubble sort and merge sort is the same: " + Arrays.equals(array, sortedArray));
 
-            System.out.print("\n" + "Continue? Please enter yes or no:");
+            System.out.print("\n" + "Continue? Please enter yes or no: ");
             String yesNo = scanner.next();
             if (yesNo.equals("no"))
                 break;
